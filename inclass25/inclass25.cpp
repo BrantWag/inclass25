@@ -31,7 +31,7 @@ int main()
 		}
 		else
 		{
-			cout << "\nThat's it! You got it in" << tries << "guesses!\n";
+			cout << "\nThat's it! You got it in " << tries << " guesses!\n";
 		}
 	} while (guess != secertNumber);
 
