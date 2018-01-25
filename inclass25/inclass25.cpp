@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
 	srand(static_cast<unsigned int>(time(0))); //seed random generator
-	int secertNumber = rand() % 100 + 1; //Random number between 1 and 64
+	int secertNumber = rand() % 64 + 1; //Random number between 1 and 64
 	int tries = 0;
 	int guess;
 	cout << "\tWelcome to the Guess My Number\n\n";
